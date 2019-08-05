@@ -88,11 +88,6 @@ ul.navbar-nav.mr-auto.float-sm-right {
 
 /* BEGIN Css slide */
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 a.nutslide.btn.btn-warning {
     border-radius: 0px;
     height: 50px;
@@ -137,10 +132,61 @@ a.nutslide.btn.btn-warning {
 /* END CSS Slide Nsh */
 
 
+/* BEGIN Three services */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a.readmore.fontroboto {
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+    padding-top: 29px;
+}
+
+h3.fontoswal a {
+    font-size: 20px;
+    color: #333;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.threeservices {
+    padding-top: 121px;
+}
+
+p.fontroboto {
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+}
+
+
+/* END Three services */
+
+
 /* Handling mobile interface */
 
 @media (max-width:576px) {
     * {}
+    .threeservices a img {
+        margin-left: 35px;
+    }
+    a.readmore.fontroboto {
+        padding-bottom: 15px;
+        border-bottom: 1px dashed #ccc9c9;
+        margin-bottom: 15px;
+    }
+    .threeservices {
+        padding-top: 60px;
+        /* margin-left: 30px; */
+    }
     a.nutslide.btn.btn-warning {
         margin-left: 58px;
         height: 35px;
@@ -152,8 +198,6 @@ a.nutslide.btn.btn-warning {
         width: 250px;
         font-size: 8px;
     }
-    .carousel-caption.noidung.fontoswal {}
-    .noidung.fontoswal p {}
     .noidung.fontoswal h3 {
         font-size: 17px;
         padding-left: 138px;
