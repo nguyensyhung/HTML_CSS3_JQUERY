@@ -5,8 +5,17 @@
     src: url("RobotoSlab-Regular.ttf");
 }
 
+@font-face {
+    font-family: Oswal;
+    src: url("Oswald-Bold.ttf");
+}
+
 .fontroboto {
     font-family: robotor;
+}
+
+.fontoswal {
+    font-family: Oswal;
 }
 
 
@@ -69,19 +78,92 @@ a.nav-link {
     padding: 0 15px;
 }
 
+ul.navbar-nav.mr-auto.float-sm-right {
+    margin-top: 25px;
+}
+
 
 /* End logo and menu Nsh */
+
+
+/* BEGIN Css slide */
 
 * {
     margin: 0;
     padding: 0;
 }
 
+a.nutslide.btn.btn-warning {
+    border-radius: 0px;
+    height: 50px;
+    width: 165px;
+    color: black;
+    line-height: 50px;
+    padding: 0px;
+    font-size: 14px;
+    font-family: robotor;
+    margin-left: 30px;
+}
+
+.noidung.fontoswal {
+    color: white;
+    margin-left: -64%;
+    background: url(images/icon1.png) no-repeat top;
+    padding-top: 152px;
+    top: 102px;
+}
+
+.noidung.fontoswal h3 {
+    color: white;
+    font-size: 50px;
+    padding-left: 432px;
+}
+
+.slide {
+    width: 100%;
+}
+
+.noidung p {
+    color: white;
+    font-family: robotor;
+    font-size: 14px;
+    /* padding-left: 1000px; */
+    margin-left: 956px;
+    text-align: left;
+    width: 625px;
+}
+
+
+/* END CSS Slide Nsh */
+
 
 /* Handling mobile interface */
 
 @media (max-width:576px) {
     * {}
+    a.nutslide.btn.btn-warning {
+        margin-left: 58px;
+        height: 35px;
+        width: 120px;
+        line-height: 35px;
+    }
+    .noidung.fontoswal p {
+        margin-left: 289px;
+        width: 250px;
+        font-size: 8px;
+    }
+    .carousel-caption.noidung.fontoswal {}
+    .noidung.fontoswal p {}
+    .noidung.fontoswal h3 {
+        font-size: 17px;
+        padding-left: 138px;
+    }
+    h3 {}
+    .carousel-caption.noidung.fontoswal {
+        padding: 0;
+        top: 36px;
+        background: none;
+    }
     .socialnetwork.float-sm-left.text-xs-center.text-sm-left {
         text-align: center;
     }
