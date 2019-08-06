@@ -6,8 +6,21 @@
 }
 
 @font-face {
+    font-family: robotob;
+    src: url("RobotoSlab-Bold.ttf");
+}
+
+@font-face {
     font-family: Oswal;
     src: url("Oswald-Bold.ttf");
+}
+
+.fontrobotob {
+    font-family: robotob;
+}
+
+.fontdancing {
+    font-family: 'Dancing Script', cursive;
 }
 
 .fontroboto {
@@ -134,9 +147,8 @@ a.nutslide.btn.btn-warning {
 
 /* BEGIN Three services */
 
-* {
-    margin: 0;
-    padding: 0;
+a.readmore.fontroboto {
+    padding-bottom: 30px;
 }
 
 a.readmore.fontroboto {
@@ -171,10 +183,233 @@ p.fontroboto {
 /* END Three services */
 
 
+/* BEGIN Title menu */
+
+h3.maintitle.fontrobotob {
+    font-size: 36px;
+}
+
+span.subheading.fontdancing {
+    font-size: 38px;
+    color: #feb518;
+}
+
+.titlemenu .container {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.titlemenu.text-sm-center {
+    display: table;
+    margin: auto;
+    height: 550px;
+}
+
+.blockmenu {
+    background: url(images/slide03.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+/* END title menu Nsh */
+
+
+/* Effect menu detail */
+
+.menudetail .titledetail {
+    height: 40px;
+    line-height: 40px;
+    /* background: #feb518; */
+    margin-bottom: 120px;
+    margin-top: -40px;
+}
+
+.menudetail .contentdetail {
+    height: 300px;
+    position: relative;
+}
+
+.menudetail .contentdetail .content {
+    height: 300px;
+    line-height: 300px;
+    border: 1px solid #feb518;
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+/* END Effect menu detail */
+
+
+/* CSS Effect filter menu */
+
+.titledetail a:focus {
+    color: #feb518;
+    text-decoration: none;
+}
+
+.titledetail a {
+    color: #fefefe;
+    font-size: 16px;
+    padding: 0 18px;
+}
+
+.below {
+    color: #777;
+    font-size: 13px;
+    padding-top: 13px;
+}
+
+.namedish .over span.float-right {
+    background: white;
+    display: inline-block;
+    transform: translateY(3px);
+    padding-left: 2px;
+}
+
+b.name {
+    background: #ffffff;
+    transform: translateY(3px);
+    display: inline-block;
+    padding-right: 2px;
+}
+
+.namedish .over {
+    color: #333;
+    font-family: Oswal;
+    font-size: 15px;
+    border-bottom: 1px dotted black;
+}
+
+.contentdetail .row .row [class*=col-] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tagnew {
+    position: absolute;
+    top: 0;
+    background: #feb518;
+    font-size: 11px;
+    padding: 2px 7px;
+}
+
+.picdish {
+    position: relative;
+    width: 100%;
+}
+
+.onedish {
+    height: 120px;
+}
+
+
+/* END CSS Efect filter menu  */
+
+
+/* BEGIN CSS Carosel */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.slidedish ol.carousel-indicators {
+    display: none;
+}
+
+.name {
+    padding-left: 10px;
+}
+
+.namerecipe {
+    font-size: 13px;
+    font-family: robotor;
+    color: #aaa;
+    padding-left: 12px;
+}
+
+.namepr {
+    font-family: Oswal;
+    font-size: 17px;
+    color: white;
+}
+
+.slidedish a.carousel-control-prev {
+    margin-left: 1031px;
+}
+
+.slidedish a.carousel-control-next,
+.slidedish a.carousel-control-prev {
+    position: absolute;
+    background: #0000005c;
+    width: 34px;
+    height: 34px;
+    top: -58px;
+    color: white;
+    line-height: 34px;
+}
+
+.slidedish a.carousel-control-next:hover,
+.slidedish a.carousel-control-prev:hover {
+    background: #feb518ab;
+}
+
+.slidedish span.sr-only {
+    color: white;
+}
+
+.slidedish span.carousel-control-next-icon {}
+
+.slidedish h4 {
+    font-family: robotob;
+    font-size: 24px;
+    padding: 23px 0;
+    margin-left: 0;
+}
+
+.slidedish {
+    margin-top: 100px;
+    background: url(images/bg2.jpg);
+    background-size: cover;
+    color: white;
+    margin-bottom: 20px;
+    padding-bottom: 68px;
+}
+
+div#slidedishover {}
+
+img.picprslide {
+    width: 100%;
+}
+
+.product {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
+/* END Css Carosel Nsh */
+
+
 /* Handling mobile interface */
 
 @media (max-width:576px) {
     * {}
+    .titlemenu.text-sm-center {
+        height: 300px;
+    }
+    span.subheading.fontdancing {
+        font-size: 29px;
+        text-align: center;
+        display: block;
+    }
     .threeservices a img {
         margin-left: 35px;
     }
@@ -202,7 +437,9 @@ p.fontroboto {
         font-size: 17px;
         padding-left: 138px;
     }
-    h3 {}
+    h3.maintitle.fontrobotob {
+        font-size: 29px;
+    }
     .carousel-caption.noidung.fontoswal {
         padding: 0;
         top: 36px;
