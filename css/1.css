@@ -116,7 +116,7 @@ a.nutslide.btn.btn-warning {
 .noidung.fontoswal {
     color: white;
     margin-left: -64%;
-    background: url(images/icon1.png) no-repeat top;
+    background: url(../images/icon1.png) no-repeat top;
     padding-top: 152px;
     top: 102px;
 }
@@ -206,7 +206,7 @@ span.subheading.fontdancing {
 }
 
 .blockmenu {
-    background: url(images/slide03.jpg);
+    background: url(../images/slide03.jpg);
     background-size: cover;
     color: white;
 }
@@ -226,7 +226,7 @@ span.subheading.fontdancing {
 }
 
 .menudetail .contentdetail {
-    height: 300px;
+    height: auto;
     position: relative;
 }
 
@@ -312,11 +312,6 @@ b.name {
 
 /* BEGIN CSS Carosel */
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .slidedish ol.carousel-indicators {
     display: none;
 }
@@ -373,14 +368,12 @@ b.name {
 
 .slidedish {
     margin-top: 100px;
-    background: url(images/bg2.jpg);
+    background: url(../images/bg2.jpg);
     background-size: cover;
     color: white;
     margin-bottom: 20px;
     padding-bottom: 68px;
 }
-
-div#slidedishover {}
 
 img.picprslide {
     width: 100%;
@@ -398,10 +391,371 @@ img.picprslide {
 /* END Css Carosel Nsh */
 
 
+/* BEGIN CSS Introduce chef  */
+
+.contactchef .iconchef:hover {
+    background: #feb518;
+    color: #000000a6;
+}
+
+.contactchef .iconchef {
+    background: black;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+    margin-right: 4px;
+    border-radius: 3px;
+    transition: 0.4s;
+}
+
+.info p.fontrobotob {
+    font-size: 14px;
+    line-height: 26px;
+    color: #777;
+}
+
+.info span {
+    font-size: 31px;
+    color: #feb518;
+    padding-bottom: 25px;
+    display: block;
+}
+
+.info h2.fontoswal {
+    color: #333;
+    font-size: 30px;
+}
+
+.info {
+    padding-top: 268px;
+}
+
+.introducechef img.img-fluid {
+    padding-top: 107px;
+}
+
+
+/* END CSS introduce chef */
+
+
+/* BEGIN CSS Slogan Home */
+
+.sloganhome span.fontrobotob {
+    font-size: 36px;
+    color: white;
+}
+
+.sloganhome h3.fontdancing {
+    font-size: 36px;
+    color: #feb518;
+    line-height: 50px;
+}
+
+.sloganhome {
+    padding: 230px 0;
+    background: #3e3e3e;
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* END Slogan */
+
+
+/* BEGIN CSS Block Book */
+
+a.btn.btn-warning.book2 {
+    line-height: 40px;
+    /* padding: 20px 47px; */
+    height: 50px;
+    width: 160px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+.formbook h2.text-center.fontrobotob {
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 60px;
+}
+
+.contactbook.fontrobotob {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 31px;
+    margin-bottom: 53px;
+}
+
+.phone.fontoswal {
+    color: #333;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+span.vang {
+    color: #fec455;
+}
+
+.contacbook p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #777;
+    padding-top: 37px;
+}
+
+.contactbook.fontrobotob p {
+    font-size: 15px;
+    color: #777;
+    line-height: 26px;
+    padding-top: 27px;
+}
+
+p.infobook {}
+
+.book.text-center {
+    padding-top: 100px;
+    padding-bottom: 61px;
+    /* border-bottom: 1px solid #343434; */
+}
+
+.contactbook.fontrobotob h2 {
+    font-size: 26px;
+    color: #333;
+}
+
+
+/* END CSS Blook Book */
+
+
+/* BEGIN CSS Slide Feedback */
+
+.readmore {
+    border-top: 1px dashed gray;
+    height: 40px;
+    padding-top: 17px;
+    margin-top: 27px;
+    color: #777;
+    font-size: 14px;
+}
+
+a.rm.fontrobotob {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.newshome p.fontroboto {
+    color: #777;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.datenew {
+    font-size: 14px;
+    color: #777;
+    line-height: 24px;
+    display: inline-block;
+    padding-bottom: 17px;
+}
+
+a.titlenew1.fontoswal {
+    font-size: 18px;
+    color: #333;
+    padding: 26px 0 12px 0;
+    display: block;
+}
+
+.newshome img {
+    width: 100%;
+}
+
+.titlenewhome h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 55px;
+}
+
+.titlenewhome span.fontdancing {
+    font-size: 40px;
+    color: #feb518;
+}
+
+.newshome {
+    padding: 120px 0;
+}
+
+.userfeedback ol.carousel-indicators {
+    bottom: -59px;
+}
+
+b.fontdancing.namepeople {
+    font-size: 36px;
+    color: #feb518;
+    margin-top: 23px;
+    display: inline-block;
+}
+
+.quote.fontroboto {
+    line-height: 36px;
+    font-size: 18px;
+}
+
+.userfeedback i.fa.fa-quote-right {
+    font-size: 36px;
+    margin-bottom: 66px;
+}
+
+.userfeedback {
+    margin-top: 120px;
+    background: #787878;
+    color: white;
+    padding: 92px 0;
+}
+
+.quote::before {
+    content: '"';
+}
+
+.quote::after {
+    content: '"';
+}
+
+.namepeople::before {
+    content: '- ';
+}
+
+
+/* END Css Slide Feedback */
+
+
+/* BEGIN CSS Footer */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.openning1 .trai {
+    background: #151515;
+    transform: translateY(9px);
+    float: left;
+    padding-right: 5px;
+}
+
+.openning1 .phai.float-right {
+    background: #151515;
+    transform: translateY(9px);
+    padding-left: 5px;
+}
+
+.openning1 {
+    border-bottom: 1px dotted gray;
+    height: 28px;
+    margin-bottom: 10px;
+    margin-top: -9px;
+}
+
+.col-sm-2.push-sm-1.colf2 ul,
+.col-sm-3.colf3 ul {
+    list-style: none;
+    margin: 0;
+}
+
+.col-sm-2.push-sm-1.colf2 ul li a,
+.col-sm-3.colf3 ul li a {
+    font-size: 14px;
+    font-family: robotor;
+    color: #888;
+    line-height: 28px;
+    transition: 0.4s;
+}
+
+.col-sm-2.push-sm-1.colf2 ul li a:hover,
+.col-sm-3.colf3 ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h2.titlef2,
+h2.titlef3 {
+    font-size: 14px;
+    color: #ccc;
+    font-family: robotor;
+    position: relative;
+    margin-bottom: 38px;
+}
+
+h2.titlef2:after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 1px;
+    background: #feb518;
+    top: 21px;
+    position: absolute;
+}
+
+.colf1 i.fa.fa-paper-plane-o {
+    padding-bottom: 23px;
+}
+
+.oneline {
+    overflow: hidden;
+    padding: 2px 0;
+}
+
+.colf1 i.fa {
+    padding-right: 21px;
+    float: left;
+    /* padding-bottom: 23px; */
+    padding-top: 5px;
+    color: #ffffffd1;
+    font-size: 13px;
+}
+
+.col-sm-3.colf1 p {
+    padding-top: 17px;
+}
+
+.footertop {
+    background: #151515;
+    color: #888;
+    line-height: 24px;
+    font-size: 14px;
+    padding-top: 113px;
+    padding-bottom: 100px;
+}
+
+.footerbt {
+    line-height: 91px;
+    height: 91px;
+    color: #999;
+    font-size: 13px;
+    background: #111;
+}
+
+
+/* END CSS Footer */
+
+
 /* Handling mobile interface */
 
 @media (max-width:576px) {
     * {}
+    .row .product:last-child {
+        width: 100%;
+    }
+    .product {
+        width: 50%;
+    }
+    .slidedish a.carousel-control-prev {
+        margin-left: 370px;
+    }
     .titlemenu.text-sm-center {
         height: 300px;
     }

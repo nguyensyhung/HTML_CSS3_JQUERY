@@ -15,4 +15,11 @@
         blockdish.isotope({ filter: dulieu })
         return false;
     });
+
+    // numberdish = $('.onedish').length;
+    // // console.log(numberdish);
+    // allheightdish = numberdish*$('.onedish').height();
+    // // console.log(allheightdish);
+    // $('.contentdetail').css({'height': allheightdish})
+    new WOW().init();
 });
