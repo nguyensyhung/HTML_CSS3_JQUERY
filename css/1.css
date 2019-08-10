@@ -159,6 +159,12 @@ a.readmore.fontroboto {
     padding-top: 29px;
 }
 
+.three-services-about a.readmore.mb-2.fontroboto {
+    color: #feb518;
+}
+
+a.readmore.mb-2.fontroboto {}
+
 h3.fontoswal a {
     font-size: 20px;
     color: #333;
@@ -173,7 +179,7 @@ h3.fontoswal a {
 }
 
 p.fontroboto {
-    text-align: center;
+    /* text-align: center; */
     font-size: 14px;
     line-height: 24px;
     color: #777;
@@ -514,8 +520,6 @@ span.vang {
     padding-top: 27px;
 }
 
-p.infobook {}
-
 .book.text-center {
     padding-top: 100px;
     padding-bottom: 61px;
@@ -549,7 +553,7 @@ a.rm.fontrobotob {
     font-weight: bold;
 }
 
-.newshome p.fontroboto {
+.one-new p.fontroboto {
     color: #777;
     line-height: 24px;
     font-size: 14px;
@@ -570,7 +574,7 @@ a.titlenew1.fontoswal {
     display: block;
 }
 
-.newshome img {
+.one-new img {
     width: 100%;
 }
 
@@ -635,9 +639,40 @@ b.fontdancing.namepeople {
 
 /* BEGIN CSS Footer */
 
-* {
-    margin: 0;
+.chef-about .info {
+    padding-top: 234px;
+}
+
+.introducechef.chef-about {
+    background: url(../images/bg_about.jpg);
     padding: 0;
+}
+
+.threeservices.three-services-about {
+    padding-top: 107px;
+}
+
+.block-2line p.fontrobotob {
+    color: #777;
+    line-height: 24px;
+    margin-bottom: 44px;
+    margin-top: 34px;
+}
+
+.block-2line h2.fontoswal {
+    color: #333;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.block-2line span.fontdancing {
+    font-size: 30px;
+    color: #feb518;
+    font-weight: bold;
+}
+
+.info-about {
+    padding: 100px 0;
 }
 
 .openning1 .trai {
@@ -741,6 +776,110 @@ h2.titlef2:after {
 
 
 /* END CSS Footer */
+
+
+/* BEGIN CSS page About */
+
+button.icon-search {
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    background: none;
+    border: none;
+    color: #7f7f7f;
+    cursor: pointer;
+}
+
+.seach-section {
+    position: relative;
+}
+
+.menudetail.page-menu {
+    padding-bottom: 120px;
+}
+
+.page-menu .block-2line {
+    margin-top: 120px;
+    margin-bottom: 77px;
+}
+
+.page-menu .block-2line p {
+    margin: 0;
+}
+
+
+/* END CSS page About */
+
+
+/* CSS Page New */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav.phantrang {}
+
+nav.phantrang ul li.pre a,
+nav.phantrang ul li.next a {
+    width: 113px;
+}
+
+nav.phantrang ul li {
+    margin-left: 7px;
+}
+
+nav.phantrang ul li a:hover {
+    border-color: #feb518 !important;
+    background: #feb518;
+    text-decoration: none;
+    color: white;
+}
+
+li.current {
+    border-color: #feb518 !important;
+    background: #feb518;
+    line-height: 39px !important;
+    color: white !important;
+}
+
+nav.phantrang ul li a,
+li.page-item.active.current {
+    display: inline-block;
+    color: #333 !important;
+    font-family: robotor;
+    font-size: 14px;
+    border: 1px solid #eee;
+    border-radius: 22px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 23px;
+}
+
+.block-list-link.my-2 {
+    border-bottom: 1px solid gray;
+}
+
+.block-list-link.my-2 ul {
+    color: #c2c3c5;
+    margin-left: 18px;
+}
+
+.block-list-link.my-2 a {
+    color: #777;
+    line-height: 44px;
+    font-size: 14px;
+}
+
+.block-list-link.my-2 h3 {
+    font-size: 18px;
+    color: #333;
+    line-height: 50px;
+}
+
+
+/* END CSS Page New */
 
 
 /* Handling mobile interface */
