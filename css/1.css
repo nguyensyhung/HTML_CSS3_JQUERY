@@ -813,11 +813,6 @@ button.icon-search {
 
 /* CSS Page New */
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 nav.phantrang {}
 
 nav.phantrang ul li.pre a,
@@ -880,6 +875,87 @@ li.page-item.active.current {
 
 
 /* END CSS Page New */
+
+
+/* CSS Page Contact */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.motdong i.fa.fa-paper-plane-o {
+    line-height: 47px;
+}
+
+.motdong i.fa {
+    padding-right: 2px;
+    float: left;
+    padding-top: 6px;
+    /* line-height: 21px; */
+}
+
+span.textmd {}
+
+span.textmd {}
+
+.motdong i {
+    color: #feb518;
+    margin-right: 19px;
+}
+
+span.textmd {
+    color: #777;
+    font-size: 13px;
+    line-height: 24px;
+    font-family: robotor;
+}
+
+a.btn.btn-block.btn-primary.btn-nut:hover {
+    background: #feb518;
+    border: 1px solid #feb518;
+    color: #333;
+}
+
+a.btn.btn-block.btn-primary.btn-nut {
+    background: #333;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+    font-family: robotor;
+    line-height: 24px;
+    border-radius: 0px;
+    border: 1px solid #333;
+    transition: 0.4s;
+}
+
+textarea.form-control.form-comment {
+    min-height: 75px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+}
+
+input.form-control.form-text {
+    margin-top: 30px;
+    border-radius: 0px;
+}
+
+.chef-contact .block-2line {
+    margin-top: 165px;
+}
+
+.chef-contact img.img-fluid {
+    padding-top: 152px;
+}
+
+
+/* .introducechef.chef-contact {
+    padding-top: 152px;
+} */
+
+
+/* END CSS Page Contact */
 
 
 /* Handling mobile interface */
